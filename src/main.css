@@ -568,6 +568,12 @@ html{
   }
 }
 
+@media (min-width: 976px){
+  .container{
+    max-width: 976px;
+  }
+}
+
 @media (min-width: 1440px){
   .container{
     max-width: 1440px;
@@ -576,6 +582,26 @@ html{
 
 .relative{
   position: relative;
+}
+
+.m-0{
+  margin: 0px;
+}
+
+.m-auto{
+  margin: auto;
+}
+
+.m-4{
+  margin: 1rem;
+}
+
+.m-10{
+  margin: 2.5rem;
+}
+
+.m-80{
+  margin: 20rem;
 }
 
 .mx-0{
@@ -600,20 +626,12 @@ html{
   height: 1.25rem;
 }
 
-.h-8{
-  height: 2rem;
-}
-
 .h-screen{
   height: 100vh;
 }
 
 .w-5{
   width: 1.25rem;
-}
-
-.w-8{
-  width: 2rem;
 }
 
 .w-full{
@@ -739,6 +757,10 @@ html{
 }
 
 @media (min-width: 375px){
+  .sm\:m-0{
+    margin: 0px;
+  }
+
   .sm\:px-14{
     padding-left: 3.5rem;
     padding-right: 3.5rem;
@@ -769,36 +791,24 @@ html{
 }
 
 @media (min-width: 768px){
-  .md\:h-7{
-    height: 1.75rem;
-  }
-
-  .md\:h-5{
-    height: 1.25rem;
-  }
-
   .md\:h-6{
     height: 1.5rem;
   }
 
-  .md\:h-8{
-    height: 2rem;
-  }
-
-  .md\:w-7{
-    width: 1.75rem;
-  }
-
-  .md\:w-5{
-    width: 1.25rem;
+  .md\:h-7{
+    height: 1.75rem;
   }
 
   .md\:w-6{
     width: 1.5rem;
   }
 
-  .md\:w-8{
-    width: 2rem;
+  .md\:w-7{
+    width: 1.75rem;
+  }
+
+  .md\:max-w-2xl{
+    max-width: 42rem;
   }
 
   .md\:items-center{
@@ -813,6 +823,11 @@ html{
   .md\:py-20{
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .md\:py-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .md\:text-3xl{
@@ -831,6 +846,15 @@ html{
 }
 
 @media (min-width: 1440px){
+  .xl\:m-auto{
+    margin: auto;
+  }
+
+  .xl\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .xl\:inline-flex{
     display: inline-flex;
   }
@@ -867,6 +891,46 @@ html{
   .xl\:py-20{
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .xl\:py-16{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .xl\:py-14{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .xl\:py-10{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .xl\:py-2{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .xl\:px-40{
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .xl\:px-96{
+    padding-left: 24rem;
+    padding-right: 24rem;
+  }
+
+  .xl\:py-24{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .xl\:px-80{
+    padding-left: 20rem;
+    padding-right: 20rem;
   }
 
   .xl\:text-4xl{

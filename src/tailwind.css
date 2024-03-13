@@ -8,5 +8,7 @@
   html {
     @apply text-[#444452];
     @apply tracking-[-0.15px];
+    @apply font-poppins;
+    @apply leading-[20px];
   }
 }

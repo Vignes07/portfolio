@@ -574,6 +574,10 @@ html{
   position: relative;
 }
 
+.sticky{
+  position: sticky;
+}
+
 .bottom-0{
   bottom: 0px;
 }
@@ -606,6 +610,10 @@ html{
 
 .mb-5{
   margin-bottom: 1.25rem;
+}
+
+.mt-14{
+  margin-top: 3.5rem;
 }
 
 .flex{
@@ -832,6 +840,10 @@ html{
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.pb-0{
+  padding-bottom: 0px;
 }
 
 .align-baseline{

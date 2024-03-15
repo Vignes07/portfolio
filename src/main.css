@@ -574,14 +574,6 @@ html{
   position: relative;
 }
 
-.sticky{
-  position: sticky;
-}
-
-.bottom-0{
-  bottom: 0px;
-}
-
 .right-4{
   right: 1rem;
 }
@@ -604,18 +596,6 @@ html{
   margin-bottom: 1.25rem;
 }
 
-.mt-10{
-  margin-top: 2.5rem;
-}
-
-.mb-5{
-  margin-bottom: 1.25rem;
-}
-
-.mt-14{
-  margin-top: 3.5rem;
-}
-
 .flex{
   display: flex;
 }
@@ -636,32 +616,12 @@ html{
   height: 1.5rem;
 }
 
-.h-8{
-  height: 2rem;
-}
-
 .h-full{
   height: 100%;
 }
 
 .h-screen{
   height: 100vh;
-}
-
-.h-\[80vh\]{
-  height: 80vh;
-}
-
-.h-\[95vh\]{
-  height: 95vh;
-}
-
-.max-h-screen{
-  max-height: 100vh;
-}
-
-.max-h-full{
-  max-height: 100%;
 }
 
 .w-10{
@@ -680,10 +640,6 @@ html{
   width: 1.5rem;
 }
 
-.w-8{
-  width: 2rem;
-}
-
 .w-full{
   width: 100%;
 }
@@ -699,22 +655,6 @@ html{
 
 .max-w-3xl{
   max-width: 48rem;
-}
-
-@keyframes bounce{
-  0%, 100%{
-    transform: translateY(0%);
-    animation-timing-function: cubic-bezier(0.8,0,1,1);
-  }
-
-  50%{
-    transform: translateY(20%);
-    animation-timing-function: cubic-bezier(0,0,0.2,1);
-  }
-}
-
-.animate-bounce-arrow{
-  animation: bounce 2s linear infinite;
 }
 
 @keyframes wave{
@@ -799,10 +739,6 @@ html{
   gap: 1.25rem;
 }
 
-.self-center{
-  align-self: center;
-}
-
 .rounded-full{
   border-radius: 9999px;
 }
@@ -840,10 +776,6 @@ html{
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.pb-0{
-  padding-bottom: 0px;
 }
 
 .align-baseline{
@@ -937,10 +869,6 @@ html{
   text-underline-offset: 8px;
 }
 
-.opacity-100{
-  opacity: 1;
-}
-
 .transition{
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -949,18 +877,8 @@ html{
   transition-duration: 150ms;
 }
 
-.transition-opacity{
-  transition-property: opacity;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .duration-300{
   transition-duration: 300ms;
-}
-
-.duration-500{
-  transition-duration: 500ms;
 }
 
 .ease-in-out{
@@ -987,18 +905,6 @@ html{
 .scroll.appear {
   opacity: 1;
   transform: translateY(0);
-}
-
-#arrow {
-  transition: opacity 0.5s ease;
-}
-
-.opacity-0 {
-  opacity: 0;
-}
-
-.opacity-100 {
-  opacity: 1;
 }
 
 .after\:absolute::after{

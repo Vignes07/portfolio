@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:css": "npx tailwindcss -i ./src/tailwind.css -o ./src/main.css --watch",
-    "build": "mkdir -p dist && html-minifier --collapse-whitespace src/index.html -o dist/index.html | npx tailwindcss -i ./src/tailwind.css -o ./dist/main.css | cp -r ./src/assets dist//assets | cp -r ./src/resume.pdf dist/resume.pdf"
+    "build": "mkdir -p dist && html-minifier --collapse-whitespace src/index.html -o dist/index.html | npx tailwindcss -i ./src/tailwind.css -o ./dist/main.css | uglifyjs src/main.js -o dist/bundle.js | cp -r ./src/assets dist//assets | cp -r ./src/resume.pdf dist/resume.pdf"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +14,7 @@
     "tailwindcss": "^3.4.1"
   },
   "dependencies": {
-    "html-minifier": "^4.0.0"
+    "html-minifier": "^4.0.0",
+    "uglify-js": "^3.17.4"
   }
 }

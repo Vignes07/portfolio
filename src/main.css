@@ -574,9 +574,8 @@ html{
   position: relative;
 }
 
-.inset-x-0{
-  left: 0px;
-  right: 0px;
+.bottom-0{
+  bottom: 0px;
 }
 
 .right-4{
@@ -585,14 +584,6 @@ html{
 
 .top-5{
   top: 1.25rem;
-}
-
-.bottom-0{
-  bottom: 0px;
-}
-
-.top-0{
-  top: 0px;
 }
 
 .z-10{
@@ -611,10 +602,6 @@ html{
 
 .mt-10{
   margin-top: 2.5rem;
-}
-
-.mb-10{
-  margin-bottom: 2.5rem;
 }
 
 .mb-5{

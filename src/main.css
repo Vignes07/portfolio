@@ -574,12 +574,25 @@ html{
   position: relative;
 }
 
+.inset-x-0{
+  left: 0px;
+  right: 0px;
+}
+
 .right-4{
   right: 1rem;
 }
 
 .top-5{
   top: 1.25rem;
+}
+
+.bottom-0{
+  bottom: 0px;
+}
+
+.top-0{
+  top: 0px;
 }
 
 .z-10{
@@ -598,6 +611,14 @@ html{
 
 .mt-10{
   margin-top: 2.5rem;
+}
+
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
+.mb-5{
+  margin-bottom: 1.25rem;
 }
 
 .flex{
@@ -801,19 +822,13 @@ html{
   padding: 2.5rem;
 }
 
-.px-14{
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
+.p-14{
+  padding: 3.5rem;
 }
 
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.py-20{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 
 .align-baseline{
@@ -844,14 +859,14 @@ html{
   line-height: 1.25rem;
 }
 
-.text-xs{
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-extralight{
@@ -957,6 +972,18 @@ html{
 .scroll.appear {
   opacity: 1;
   transform: translateY(0);
+}
+
+#arrow {
+  transition: opacity 0.5s ease;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-100 {
+  opacity: 1;
 }
 
 .after\:absolute::after{

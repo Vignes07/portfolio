@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.html"],
   theme: {
     screens: {
-      sm: "375px",
+      sm: "320px",
       md: "540px",
       lg: "976px",
       xl: "1280px",
@@ -24,9 +24,14 @@ module.exports = {
           "60%": { transform: "rotate(0.0deg)" },
           "100%": { transform: "rotate(0.0deg)" },
         },
+        bounce: {
+          "0%, 100%": { transform: "translateY(0%)" },
+          "50%": { transform: "translateY(20%)" },
+        },
       },
       animation: {
         "waving-hand": "wave 3s linear infinite",
+        "bounce-arrow": "bounce 2s linear infinite",
       },
     },
   },

@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/logo.png" />
     <link href="./main.css" rel="stylesheet" />
   </head>
-  <body class="transition-all duration-500 ease-in-out">
+  <body class="mx-auto h-full flex flex-col justify-center">
     <label
-      class="absolute top-0 right-0 z-10 p-5 inline-flex gap-2 items-center cursor-pointer"
+      class="absolute top-5 right-4 z-10 inline-flex gap-2 items-center cursor-pointer"
     >
       <input type="checkbox" id="toggleCheckbox" class="sr-only peer" />
       <svg
@@ -44,269 +45,272 @@
         />
       </svg>
     </label>
-    <div
-      class="relative container mx-0 md:mx-0 lg:mx-auto xl:mx-auto flex flex-col justify-center"
+    <section
+      class="flex flex-col justify-around h-screen px-14 py-20 md:p-20 xl:p-24 xl:w-[80rem] md:mx-auto lg:mx-auto xl:mx-auto xxl:mx-auto"
     >
-      <div
-        class="flex flex-col justify-around h-screen p-14 sm:p-14 md:p-20 xl:p-24 w-full md:w-max lg:w-max"
+      <span
+        class="my-5 font-light text-2xl md:text-3xl xl:text-4xl inline-flex items-center"
+      >
+        Hello!&nbsp;
+        <img
+          class="h-5 w-5 md:h-7 md:w-7 xl:h-8 xl:w-8 animate-waving-hand"
+          src="./assets/wave.png"
+          alt="handwave"
+        />
+      </span>
+      <span
+        class="my-5 font-light text-2xl leading-relaxed md:text-3xl md:leading-relaxed xl:text-4xl xl:leading-relaxed max-w-3xl"
+      >
+        I’m <span class="font-semibold">Vignes Kumar Raj</span> , a Full-Stack
+        Developer with a passion for implementing responsive designs and
+        crafting exceptional user experiences.
+      </span>
+      <span
+        class="my-5 font-light text-base md:text-xl xl:text-xl xl:inline-flex"
       >
         <span
-          class="my-5 font-light text-xl sm:text-2xl md:text-3xl xl:text-4xl inline-flex items-center"
+          class="inline-flex align-baseline md:items-center xl:items-center"
         >
-          Hello!&nbsp;
+          <span>Get in touch&nbsp;</span>
           <img
-            class="h-5 w-5 md:h-7 md:w-7 xl:h-8 xl:w-8 animate-waving-hand"
-            src="./assets/wave.png"
-            alt="handwave"
+            class="h-5 w-5 md:h-6 md:w-6 xl:h-7 xl:w-7 align-text-bottom"
+            src="./assets/pointinghand.png"
+            alt="pointinghand"
+          />
+          &nbsp;
+        </span>
+        <a
+          href="mailto:vigneskumarraj@gmail.com"
+          target="_blank"
+          class="font-medium underline underline-offset-8 decoration-[3px] decoration-[#007bff]"
+        >
+          vigneskumarraj@gmail.com
+        </a>
+      </span>
+      <svg
+        id="arrow"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="w-8 h-8 self-center bottom-5 absolute animate-bounce-arrow opacity-100 transition-opacity duration-500"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="m19.5 8.25-7.5 7.5-7.5-7.5"
+        />
+      </svg>
+    </section>
+    <section
+      class="scroll flex flex-col md:flex-col lg:flex-col xl:flex-row p-10 md:p-20 lg:px-40 xl:px-50 xl:py-20 justify-center gap-5 xl:gap-20"
+    >
+      <span
+        class="font-semibold text-[#007bff] text-base xl:text-right tracking-widest w-40"
+        >BACKGROUND</span
+      >
+      <span
+        class="font-light w-full max-w-2xl text-sm xl:text-base leading-relaxed tracking-wide px-4 md:px-6 xl:p-0"
+      >
+        I recently graduated from&nbsp;
+        <span class="font-semibold"> Karpagam College of Engineering </span
+        >&nbsp; with a
+        <span class="font-semibold">Bachelor's Degree</span> in&nbsp;
+        <span class="font-semibold">Information Technology</span>.
+        <br />
+        <br />
+        As a full-stack developer, I aspire to merge engineering and design,
+        crafting applications that are scalable and efficient, yet offer
+        exceptional user experiences. On the back end, I seek to master
+        server-side languages such as Node.js alongside various databases for
+        robust data management. I am committed to creating applications that
+        seamlessly combine functionality with pixel-perfect user experiences.
+      </span>
+    </section>
+    <section
+      class="scroll flex flex-col xl:flex-row p-10 md:p-20 lg:px-40 xl:px-50 xl:py-20 justify-center gap-5 xl:gap-20"
+    >
+      <span
+        class="font-semibold text-[#007bff] text-base xl:text-right tracking-widest w-40"
+        >SKILLS</span
+      >
+      <span
+        class="flex flex-wrap justify-between font-light gap-4 w-full max-w-2xl text-sm xl:text-base leading-relaxed tracking-tight px-4 md:px-6 xl:p-0"
+      >
+        <ul>
+          <span class="font-semibold">LANGUAGES</span>
+          <li>JavaScript</li>
+          <li>Java</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SQL</li>
+        </ul>
+        <ul>
+          <span class="font-semibold">FRAMEWORKS</span>
+          <li>React</li>
+          <li>Node</li>
+          <li>Redux</li>
+          <li>Tailwind</li>
+          <li>Material UI</li>
+        </ul>
+        <ul>
+          <span class="font-semibold">TOOLS</span>
+          <li>Git & Github</li>
+          <li>Vercel</li>
+          <li>Postman</li>
+          <li>Chrome Dev Tools</li>
+          <li>MongoDB</li>
+        </ul>
+      </span>
+    </section>
+    <section
+      class="scroll flex flex-col xl:flex-row p-10 md:p-20 lg:px-40 xl:px-50 xl:py-20 justify-center gap-5 xl:gap-20"
+    >
+      <span
+        class="font-semibold text-[#007bff] text-base xl:text-right tracking-widest w-40"
+        >EXPERIENCE</span
+      >
+      <div class="flex flex-col gap-10 w-full max-w-2xl px-4 md:px-6 xl:p-0">
+        <div
+          class="flex flex-col md:flex-row lg:flex-row xl:flex-row justify-between"
+        >
+          <div class="flex flex-col justify-between w-max leading-relaxed">
+            <span class="font-medium">UST Global</span>
+            <span class="font-light">Associate Software Tester</span>
+          </div>
+          <span class="font-extralight">Jul 2023 - Dec 2023</span>
+        </div>
+        <div
+          class="flex flex-col md:flex-row lg:flex-row xl:flex-row justify-between"
+        >
+          <div class="flex flex-col leading-relaxed">
+            <span class="font-medium">Piktorlabs</span>
+            <span class="font-light">ReactJS Developer Intern</span>
+          </div>
+          <span class="font-extralight">Aug 2022 - Jun 2023</span>
+        </div>
+        <span class="flex gap-2 font-medium items-center cursor-pointer group">
+          <a class="text-lg" href="./resume.pdf" target="_blanks">
+            View My Resume
+          </a>
+          <img
+            class="h-4 w-5 transition duration-300 ease-in-out group-hover:translate-x-1"
+            src="./assets/arrow.png"
+            alt="arrow"
           />
         </span>
-        <span
-          class="my-5 font-light text-xl leading-relaxed w-full max-w-xl sm:text-2xl sm:leading-relaxed md:text-3xl md:leading-relaxed xl:text-4xl xl:leading-relaxed xl:max-w-3xl"
-        >
-          I’m <span class="font-semibold">Vignes Kumar Raj</span> , a Full-Stack
-          Developer with a passion for implementing responsive designs and
-          crafting exceptional user experiences.
-        </span>
-        <span
-          class="my-5 font-light text-sm sm:text-lg md:text-xl xl:text-xl xl:inline-flex"
-        >
-          <span
-            class="inline-flex sm:align-baseline md:items-center xl:items-center"
-          >
-            <span>Get in touch&nbsp;</span>
-            <img
-              class="h-5 w-5 md:h-6 md:w-6 xl:h-7 xl:w-7 align-text-bottom"
-              src="./assets/pointinghand.png"
-              alt="pointinghand"
-            />
-            &nbsp;
-          </span>
-          <a
-            href="mailto:vigneskumarraj@gmail.com"
-            target="_blank"
-            class="font-medium underline underline-offset-8 decoration-[3px] decoration-[#007bff]"
-          >
-            vigneskumarraj@gmail.com
-          </a>
-        </span>
       </div>
-      <div
-        class="flex flex-col md:flex-col lg:flex-col xl:flex-row w-full md:w-fit gap-5 xl:gap-24 p-10 md:p-20 lg:px-40 xl:px-50 xl:py-20"
+    </section>
+    <section
+      class="scroll flex flex-col xl:flex-row p-10 md:p-20 lg:px-40 xl:px-50 xl:py-20 justify-center gap-5 xl:gap-20"
+    >
+      <span
+        class="font-semibold text-[#007bff] text-base xl:text-right tracking-widest w-40"
+        >PROJECTS</span
       >
-        <span
-          class="font-semibold text-[#007bff] text-base xl:text-right tracking-widest w-40"
-          >BACKGROUND</span
-        >
-        <span
-          class="font-light w-full md:w-max lg:w-max max-w-2xl md:max-w-xl text-sm xl:text-base leading-relaxed tracking-wide px-4 md:px-6 xl:p-0"
-        >
-          I recently graduated from&nbsp;
-          <span class="font-semibold"> Karpagam College of Engineering </span
-          >&nbsp; with a
-          <span class="font-semibold">Bachelor's Degree</span> in&nbsp;
-          <span class="font-semibold">Information Technology</span>.
-          <br />
-          <br />
-          As a full-stack developer, I aspire to merge engineering and design,
-          crafting applications that are scalable and efficient, yet offer
-          exceptional user experiences. On the back end, I seek to master
-          server-side languages such as Node.js alongside various databases for
-          robust data management. I am committed to creating applications that
-          seamlessly combine functionality with pixel-perfect user experiences.
-        </span>
-      </div>
-      <div
-        class="flex flex-col xl:flex-row gap-5 xl:gap-24 p-10 md:p-20 lg:px-40 xl:px-50 xl:py-20"
-      >
-        <span
-          class="font-semibold text-[#007bff] text-base xl:text-right tracking-widest w-40"
-          >SKILLS</span
-        >
-        <span
-          class="flex flex-wrap justify-between font-light gap-4 w-full max-w-2xl text-sm xl:text-base leading-relaxed tracking-tight px-4 md:px-6 xl:p-0"
-        >
-          <ul>
-            <span class="font-semibold">LANGUAGES</span>
-            <li>JavaScript</li>
-            <li>Java</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SQL</li>
-          </ul>
-          <ul>
-            <span class="font-semibold">FRAMEWORKS</span>
-            <li>React</li>
-            <li>Node</li>
-            <li>Redux</li>
-            <li>Tailwind</li>
-            <li>Material UI</li>
-          </ul>
-          <ul>
-            <span class="font-semibold">TOOLS</span>
-            <li>Git & Github</li>
-            <li>Vercel</li>
-            <li>Postman</li>
-            <li>Chrome Dev Tools</li>
-            <li>MongoDB</li>
-          </ul>
-        </span>
-      </div>
-      <div
-        class="flex flex-col xl:flex-row w-full gap-5 xl:gap-24 p-10 md:p-20 lg:px-40 xl:px-50 xl:py-20"
-      >
-        <span
-          class="font-semibold text-[#007bff] text-base xl:text-right tracking-widest w-40"
-          >EXPERIENCE</span
-        >
-        <div class="flex flex-col gap-10 w-full max-w-2xl px-4 md:px-6 xl:p-0">
-          <div
-            class="flex flex-col md:flex-row lg:flex-row xl:flex-row justify-between"
-          >
-            <div class="flex flex-col justify-between w-max leading-relaxed">
-              <span class="font-medium">UST Global</span>
-              <span class="font-light">Associate Software Tester</span>
-            </div>
-            <span class="font-extralight">Jul 2023 - Dec 2023</span>
-          </div>
-          <div
-            class="flex flex-col md:flex-row lg:flex-row xl:flex-row justify-between"
-          >
-            <div class="flex flex-col leading-relaxed">
-              <span class="font-medium">Piktorlabs</span>
-              <span class="font-light">ReactJS Developer Intern</span>
-            </div>
-            <span class="font-extralight">Aug 2022 - Jun 2023</span>
-          </div>
-          <span
-            class="flex gap-2 font-medium items-center cursor-pointer group"
-          >
-            <a class="text-lg" href="./resume.pdf" target="_blanks">
-              View My Resume
-            </a>
-            <img
-              class="h-4 w-5 transition duration-300 ease-in-out group-hover:translate-x-1"
-              src="./assets/arrow.png"
-              alt="arrow"
-            />
-          </span>
-        </div>
-      </div>
-      <div
-        class="flex flex-col xl:flex-row w-full gap-5 xl:gap-24 p-10 md:p-20 lg:px-40 xl:px-50 xl:py-20"
-      >
-        <span
-          class="font-semibold text-[#007bff] text-base xl:text-right tracking-widest w-40"
-          >PROJECTS</span
-        >
 
-        <div
-          class="flex flex-col justify-between gap-10 w-full md:w-max max-w-2xl px-4 md:px-6 xl:p-0"
-        >
-          <div
-            class="flex flex-col gap-2 justify-between w-auto md:w-full leading-relaxed"
+      <div
+        class="flex flex-col justify-between w-full max-w-2xl gap-10 px-4 md:px-6 xl:p-0"
+      >
+        <div class="flex flex-col gap-2 justify-between leading-relaxed">
+          <span class="font-medium">Chat Application</span>
+          <span class="font-light w-max-xl"
+            >A chat application that lets you chat and send images to your
+            friends and group through Stream chat API.</span
           >
-            <span class="font-medium">Chat Application</span>
-            <span class="font-light w-max-xl"
-              >A chat application that lets you chat and send images to your
-              friends and group through Stream chat API.</span
+          <div class="flex flex-wrap gap-2 text-[#007bff] tracking-wide">
+            <span
+              class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
+              >Flutter</span
             >
-            <div class="flex flex-wrap gap-2 text-[#007bff] tracking-wide">
-              <span
-                class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
-                >Flutter</span
-              >
-              <span
-                class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
-                >Firebase</span
-              >
-              <span
-                class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
-                >Cloudstore</span
-              >
-              <span
-                class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
-                >Stream API</span
-              >
-            </div>
+            <span
+              class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
+              >Firebase</span
+            >
+            <span
+              class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
+              >Cloudstore</span
+            >
+            <span
+              class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
+              >Stream API</span
+            >
           </div>
-          <div
-            class="flex flex-col gap-2 justify-between w-auto md:w-max leading-relaxed"
-          >
-            <span class="font-medium">Todo</span>
-            <span class="font-light"
-              >A Todo list web app that lets you create tasks and maintain tasks
-              in browser.
-            </span>
-            <div class="flex flex-wrap gap-2 text-[#007bff] tracking-wide">
-              <span
-                class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
-                >React</span
-              >
-              <span
-                class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
-                >JavaScript</span
-              >
-              <span
-                class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
-                >Bootstrap</span
-              >
-            </div>
+        </div>
+        <div class="flex flex-col gap-2 justify-between leading-relaxed">
+          <span class="font-medium">Todo</span>
+          <span class="font-light"
+            >A Todo list web app that lets you create tasks and maintain tasks
+            in browser.
+          </span>
+          <div class="flex flex-wrap gap-2 text-[#007bff] tracking-wide">
+            <span
+              class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
+              >React</span
+            >
+            <span
+              class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
+              >JavaScript</span
+            >
+            <span
+              class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
+              >Bootstrap</span
+            >
           </div>
-          <div
-            class="flex flex-col gap-2 justify-between w-auto md:w-max leading-relaxed"
-          >
-            <span class="font-medium">Notes</span>
-            <span class="font-light"
-              >Notes app in web that lets you to take notes in your browser.
-            </span>
-            <div class="flex flex-wrap gap-2 text-[#007bff] tracking-wide">
-              <span
-                class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
-                >React</span
-              >
-              <span
-                class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
-                >Redux</span
-              >
-              <span
-                class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
-                >JavaScript</span
-              >
-              <span
-                class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
-                >Bootstrap</span
-              >
-            </div>
+        </div>
+        <div class="flex flex-col gap-2 justify-between leading-relaxed">
+          <span class="font-medium">Notes</span>
+          <span class="font-light"
+            >Notes app in web that lets you to take notes in your browser.
+          </span>
+          <div class="flex flex-wrap gap-2 text-[#007bff] tracking-wide">
+            <span
+              class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
+              >React</span
+            >
+            <span
+              class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
+              >Redux</span
+            >
+            <span
+              class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
+              >JavaScript</span
+            >
+            <span
+              class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
+              >Bootstrap</span
+            >
           </div>
-          <div
-            class="flex flex-col gap-2 justify-between w-auto md:w-max leading-relaxed"
-          >
-            <span class="font-medium">Personal Website</span>
-            <span class="font-light"
-              >Designed and developed my simple personal portfolio website
-            </span>
-            <div class="flex flex-wrap gap-2 text-[#007bff] tracking-wide">
-              <span
-                class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
-                >HTML</span
-              >
-              <span
-                class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
-                >CSS</span
-              >
-              <span
-                class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
-                >Tailwind</span
-              >
-            </div>
+        </div>
+        <div class="flex flex-col gap-2 justify-between leading-relaxed">
+          <span class="font-medium">Personal Website</span>
+          <span class="font-light"
+            >Designed and developed my simple personal portfolio website
+          </span>
+          <div class="flex flex-wrap gap-2 text-[#007bff] tracking-wide">
+            <span
+              class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
+              >HTML</span
+            >
+            <span
+              class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
+              >CSS</span
+            >
+            <span
+              class="font-regular border p-1 rounded-md border-[#007bff] text-sm"
+              >Tailwind</span
+            >
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <footer
       class="flex flex-col gap-5 md:flex-row lg:flex-row xl:flex-row items-center justify-between p-10"
     >
-      <span class="flex flex-col items-center font-medium tracking-wide">
+      <span
+        class="flex flex-col items-center font-medium tracking-wide text-sm"
+      >
         <span>Designed and Developed by </span>
         <span class="flex">
           Vignes Kumar Raj
@@ -314,34 +318,26 @@
           2024</span
         >
       </span>
-      <div class="flex gap-2 font-medium text-[#007bff] text-xs xl:text-sm">
-        <a href="https://github.com/Vignes07" target="_blank">GITHUB</a>
+      <div
+        class="flex gap-2 font-medium text-[#007bff] text-xs xl:text-sm tracking-wide"
+      >
+        <a href="https://github.com/Vignes07" target="_blank"
+          ><img
+            class="h-5 w-5 md:h-7 md:w-7 xl:h-8 xl:w-8"
+            src="./assets/github.png"
+            alt="handwave"
+        /></a>
         <a
           href="https://www.linkedin.com/in/vignes-kumar-raj-m-187b99220"
           target="_blank"
-          >LINKEDIN</a
-        >
+          ><img
+            class="h-5 w-5 md:h-7 md:w-7 xl:h-8 xl:w-8"
+            src="./assets/linkedin.png"
+            alt="handwave"
+        /></a>
       </div>
     </footer>
-  </body>
-  <script>
-    const toggleCheckbox = document.getElementById("toggleCheckbox");
-    const sunIcon = document.getElementById("sun");
-    const moonIcon = document.getElementById("moonIcon");
 
-    toggleCheckbox.addEventListener("change", function () {
-      const body = document.body;
-      if (this.checked) {
-        body.style.backgroundColor = "#171c28";
-        body.style.color = "white";
-        sunIcon.style.color = "white";
-        moonIcon.style.color = "white";
-      } else {
-        body.style.backgroundColor = "#ffffff";
-        body.style.color = "#444452";
-        sunIcon.style.color = "#444452";
-        moonIcon.style.color = "#444452";
-      }
-    });
-  </script>
+    <script src="main.js"></script>
+  </body>
 </html>

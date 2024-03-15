@@ -640,6 +640,22 @@ html{
   height: 100vh;
 }
 
+.h-\[80vh\]{
+  height: 80vh;
+}
+
+.h-\[95vh\]{
+  height: 95vh;
+}
+
+.max-h-screen{
+  max-height: 100vh;
+}
+
+.max-h-full{
+  max-height: 100%;
+}
+
 .w-10{
   width: 2.5rem;
 }

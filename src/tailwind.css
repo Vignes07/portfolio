@@ -34,3 +34,8 @@
   opacity: 1;
   transform: translateY(0);
 }
+
+.dark {
+  background-color: #171c28;
+  color: white;
+}

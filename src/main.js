@@ -2,6 +2,19 @@ const toggleCheckbox = document.getElementById("toggleCheckbox");
 const sunIcon = document.getElementById("sun");
 const moonIcon = document.getElementById("moon");
 
+if (
+  window.matchMedia &&
+  window.matchMedia("(prefers-color-scheme: dark)").matches
+) {
+  toggleCheckbox.checked = "true";
+  const body = document.body;
+
+  body.style.backgroundColor = "#171c28";
+  body.style.color = "white";
+  sunIcon.style.color = "white";
+  moonIcon.style.color = "white";
+}
+
 toggleCheckbox.addEventListener("change", function () {
   const body = document.body;
   if (this.checked) {

@@ -1,6 +1,6 @@
 const toggleCheckbox = document.getElementById("toggleCheckbox");
 const sunIcon = document.getElementById("sun");
-const moonIcon = document.getElementById("moonIcon");
+const moonIcon = document.getElementById("moon");
 
 toggleCheckbox.addEventListener("change", function () {
   const body = document.body;

@@ -761,14 +761,6 @@ html{
   background-color: rgb(128 128 128 / var(--tw-bg-opacity));
 }
 
-.fill-slate-50{
-  fill: #f8fafc;
-}
-
-.fill-red-400{
-  fill: #f87171;
-}
-
 .p-1{
   padding: 0.25rem;
 }
@@ -875,15 +867,6 @@ html{
 
 .underline-offset-8{
   text-underline-offset: 8px;
-}
-
-.invert{
-  --tw-invert: invert(100%);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.filter{
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .transition{

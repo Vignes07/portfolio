@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:css": "npx tailwindcss -i ./src/tailwind.css -o ./src/main.css --watch",
-    "build": "mkdir -p dist && html-minifier --collapse-whitespace src/index.html -o dist/index.html | npx tailwindcss -i ./src/tailwind.css -o ./dist/main.css | uglifyjs src/main.js -o dist/main.js | cp -r ./src/assets dist//assets | cp -r ./src/resume.pdf dist/resume.pdf | cp -r ../sitemap.xml dist/sitemap.xml"
+    "build": "mkdir -p dist && html-minifier --collapse-whitespace src/index.html -o dist/index.html | npx tailwindcss -i ./src/tailwind.css -o ./dist/main.css | uglifyjs src/main.js -o dist/main.js | cp -r ./src/assets dist//assets | cp -r ./src/resume.pdf dist/resume.pdf | cp -r ./sitemap.xml dist/sitemap.xml"
   },
   "keywords": [],
   "author": "",
